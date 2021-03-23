@@ -18,7 +18,7 @@ namespace Snake {
           "Maybe next time!"
         };
 
-        MessageBox.Show(possibleMessages[Random.Next(possibleMessages.Length)], "You'll do better next time!");
+        MessageBox.Show($"{ possibleMessages[Random.Next(possibleMessages.Length)] }\nYour score is: { FoodEatenCount * 10 }", "You'll do better next time!");
       }
       public static void ShowWinMessage() {
         string[] possibleMessages = new string[] {
