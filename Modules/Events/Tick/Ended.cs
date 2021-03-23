@@ -13,7 +13,7 @@ namespace Snake {
     private void Window_Tick_Ended() {
       Timer.Stop();
 
-      if (FoodEatenCount == 16 * 16 - 1) {
+      if (FoodEatenCount == 17 * 17) {
         Dialogs.ShowWinMessage();
       } else {
         Dialogs.ShowLoseMessage();
