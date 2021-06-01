@@ -24,7 +24,7 @@ namespace SnakeGame.Modules.UI.Windows {
       Storage.Random      = new Random();
 
       // Start game loop
-      Storage.Loop.Start();
+      Storage.Loop.Timer.Start();
     }
 
     private void Main_KeyDown(object sender, KeyEventArgs e) {
