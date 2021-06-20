@@ -3,6 +3,7 @@
 
 ## Controls
 `W`, `A`, `S` and `D` - player 1 (blue)
+
 `↑`, `←`, `→` and `↓` - player 2 (red)
 
 ## Goal
